@@ -11,10 +11,24 @@
 <body>
     <h1 class="text-center">Trip</h1>
 
-    <h1 class="text-left" style="margin-left: 20px">RIU BAMBU</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4 m-2">
-        <div class="col">
-            <a href="https://voohotel.abreu.pt/pt-PT/pesquisa//?origin=Porto&originCode=OPO&originId=2735943&destination=Punta+Cana&destinationCode=&destinationId=3494242&date=2023%2F06%2F05&date=2023%2F06%2F12&adults=2&children=0&fareBasis=&hotelRating=3" target="_blank">
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-riu-bambu-tab" data-bs-toggle="tab" data-bs-target="#nav-riu-bambu" type="button" role="tab" aria-controls="nav-riu-bambu" aria-selected="true">Riu Bambu</button>
+        <button class="nav-link" id="nav-rocha-tab" data-bs-toggle="tab" data-bs-target="#nav-rocha" type="button" role="tab" aria-controls="nav-rocha" aria-selected="false">Praia da Rocha</button>
+        <button class="nav-link" id="nav-portimao-tab" data-bs-toggle="tab" data-bs-target="#nav-portimao" type="button" role="tab" aria-controls="nav-portimao" aria-selected="false">Portimão</button>
+        <button class="nav-link" id="nav-albufeira-tab" data-bs-toggle="tab" data-bs-target="#nav-albufeira" type="button" role="tab" aria-controls="nav-albufeira" aria-selected="false">Albufeira</button>
+        <button class="nav-link" id="nav-pera-tab" data-bs-toggle="tab" data-bs-target="#nav-pera" type="button" role="tab" aria-controls="nav-pera" aria-selected="false">Armação de Pera</button>
+        <button class="nav-link" id="nav-lagos-tab" data-bs-toggle="tab" data-bs-target="#nav-lagos" type="button" role="tab" aria-controls="nav-lagos" aria-selected="false">Lagos</button>
+      </div>
+    </nav>
+
+
+
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-riu-bambu" role="tabpanel" aria-labelledby="nav-riu-bambu-tab">
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-2">
+          <div class="col">
+              <a href="https://voohotel.abreu.pt/pt-PT/pesquisa//?origin=Porto&originCode=OPO&originId=2735943&destination=Punta+Cana&destinationCode=&destinationId=3494242&date=2023%2F06%2F05&date=2023%2F06%2F12&adults=2&children=0&fareBasis=&hotelRating=3" target="_blank">
                 <div class="card h-100">
                   <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
                   <div class="card-body">
@@ -22,123 +36,134 @@
                     <p class="card-text"></p>
                   </div>
                 </div>
-            </a>
+              </a>
+            </div>
         </div>
-    </div>
-
-    <h1 class="text-left" style="margin-left: 20px; margin-top: 20px;">PRAIA DA ROCHA</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4 m-2"> 
-      <div class="col">
-        <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/70339?tri=maxprice&osort=up" target="_blank">
-          <div class="card h-100">
-            <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Apartamento Praia da Rocha</h5>
-              <p class="card-text">Data: 17/09 - 24/09</p>
-              <p class="card-text">Preço: 300€</p>
-              <p class="card-text">Localização: 350m da praia</p>
-            </div>
-          </div>
-        </a>
       </div>
-
-      <div class="col">
-        <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/124206?tri=maxprice&osort=up&cur_page=3" target="_blank">
-          <div class="card h-100">
-            <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Apartamento Praia da Rocha (T0)</h5>
-              <p class="card-text">Data: 16/09 - 23/09</p>
-              <p class="card-text">Preço: 300€</p>
-              <p class="card-text">Localização: perto</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-      <div class="col">
-        <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/96534?tri=maxprice&osort=up&cur_page=3" target="_blank">
-          <div class="card h-100">
-            <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Apartamento Praia da Rocha</h5>
-              <p class="card-text">Data: 16/09 - 23/09</p>
-              <p class="card-text">Preço: 420€</p>
-              <p class="card-text">Localização: 50m da praia (na rua movimentada dos bares...)</p>
-            </div>
-          </div>
-        </a>
-      </div>
-
-    </div>
-    
-  <h1 class="text-left" style="margin-left: 20px; margin-top: 20px;">PORTIMÃO</h1>
-  <div class="row row-cols-1 row-cols-md-3 g-4 m-2"> 
-      <div class="col">
-          <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/87050?tri=maxprice&osort=up&cur_page=2" target="_blank">
+      
+      <div class="tab-pane fade" id="nav-rocha" role="tabpanel" aria-labelledby="nav-rocha-tab">
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-2"> 
+          <div class="col">
+            <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/70339?tri=maxprice&osort=up" target="_blank">
               <div class="card h-100">
                 <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Apartamento Portimão</h5>
-                  <p class="card-text">Data: 16/09 - 23/09</p>
-                  <p class="card-text">Preço: 580€/max</p>
-                  <p class="card-text">Localização: 450m da praia</p>
+                  <h5 class="card-title">Apartamento Praia da Rocha</h5>
+                  <p class="card-text">Data: 17/09 - 24/09</p>
+                  <p class="card-text">Preço: 300€</p>
+                  <p class="card-text">Localização: 350m da praia</p>
                 </div>
               </div>
-          </a>
+            </a>
+          </div>
+    
+          <div class="col">
+            <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/124206?tri=maxprice&osort=up&cur_page=3" target="_blank">
+              <div class="card h-100">
+                <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Apartamento Praia da Rocha (T0)</h5>
+                  <p class="card-text">Data: 16/09 - 23/09</p>
+                  <p class="card-text">Preço: 300€</p>
+                  <p class="card-text">Localização: perto</p>
+                </div>
+              </div>
+            </a>
+          </div>
+    
+          <div class="col">
+            <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/96534?tri=maxprice&osort=up&cur_page=3" target="_blank">
+              <div class="card h-100">
+                <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Apartamento Praia da Rocha</h5>
+                  <p class="card-text">Data: 16/09 - 23/09</p>
+                  <p class="card-text">Preço: 420€</p>
+                  <p class="card-text">Localização: 50m da praia (na rua movimentada dos bares...)</p>
+                </div>
+              </div>
+            </a>
+          </div>
+    
+        </div>
       </div>
-  </div>
 
-  <h1 class="text-left" style="margin-left: 20px; margin-top: 20px;">ALBUFEIRA</h1>
-  <div class="row row-cols-1 row-cols-md-3 g-4 m-2"> 
-    <div class="col">
-      <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/69920?tri=maxprice&osort=up&cur_page=2" target="_blank">
-          <div class="card h-100">
-            <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Apartamento Albufeira</h5>
-              <p class="card-text">Data: 16/09 - 23/09</p>
-              <p class="card-text">Preço: 400€</p>
-              <p class="card-text">Localização: 800m da praia</p>
-            </div>
+      <div class="tab-pane fade" id="nav-portimao" role="tabpanel" aria-labelledby="nav-portimao-tab">
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-2"> 
+          <div class="col">
+              <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/87050?tri=maxprice&osort=up&cur_page=2" target="_blank">
+                  <div class="card h-100">
+                    <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Apartamento Portimão</h5>
+                      <p class="card-text">Data: 16/09 - 23/09</p>
+                      <p class="card-text">Preço: 580€/max</p>
+                      <p class="card-text">Localização: 450m da praia</p>
+                    </div>
+                  </div>
+              </a>
           </div>
-      </a>
-    </div>
-  </div>
+      </div>
+      </div>
 
-  <h1 class="text-left" style="margin-left: 20px; margin-top: 20px;">ARMAÇÃO DE PERA</h1>
-  <div class="row row-cols-1 row-cols-md-3 g-4 m-2">     
-    <div class="col">
-      <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/114726?tri=maxprice&osort=up&cur_page=3" target="_blank">
-          <div class="card h-100">
-            <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Apartamento Armação de Pera</h5>
-              <p class="card-text">Data: 16/09 - 23/09</p>
-              <p class="card-text">Preço: 350€</p>
-              <p class="card-text">Localização: 300m da praia (c/ piscina)</p>
-              <p class="card-text" style="background-color: greenyellow;">Obs: TEM PINTA</p>
-            </div>
-          </div>
-        </a>
-    </div>
-  </div>
-
-  <h1 class="text-left" style="margin-left: 20px; margin-top: 20px;">LAGOS</h1>
-  <div class="row row-cols-1 row-cols-md-3 g-4 m-2"> 
-    <div class="col">
-      <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/125906?tri=maxprice&osort=up&cur_page=4" target="_blank">
-        <div class="card h-100">
-          <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Apartamento Lagos</h5>
-            <p class="card-text">Data: 16/09 - 23/09</p>
-            <p class="card-text">Preço: 375€</p>
-            <p class="card-text">Localização: 1,4km da praia (c/ piscina)</p>
+      <div class="tab-pane fade" id="nav-albufeira" role="tabpanel" aria-labelledby="nav-albufeira-tab">
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-2"> 
+          <div class="col">
+            <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/69920?tri=maxprice&osort=up&cur_page=2" target="_blank">
+                <div class="card h-100">
+                  <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Apartamento Albufeira</h5>
+                    <p class="card-text">Data: 16/09 - 23/09</p>
+                    <p class="card-text">Preço: 400€</p>
+                    <p class="card-text">Localização: 800m da praia</p>
+                  </div>
+                </div>
+            </a>
           </div>
         </div>
-      </a>
+      </div>
+
+      <div class="tab-pane fade" id="nav-pera" role="tabpanel" aria-labelledby="nav-pera-tab">
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-2">     
+          <div class="col">
+            <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/114726?tri=maxprice&osort=up&cur_page=3" target="_blank">
+                <div class="card h-100">
+                  <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Apartamento Armação de Pera</h5>
+                    <p class="card-text">Data: 16/09 - 23/09</p>
+                    <p class="card-text">Preço: 350€</p>
+                    <p class="card-text">Localização: 300m da praia (c/ piscina)</p>
+                    <p class="card-text" style="background-color: greenyellow;">Obs: TEM PINTA</p>
+                  </div>
+                </div>
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="nav-lagos" role="tabpanel" aria-labelledby="nav-lagos-tab">
+        <div class="row row-cols-1 row-cols-md-3 g-4 m-2"> 
+          <div class="col">
+            <a href="https://www.mediaferias.com/aluguer-ferias-algarve/000361000/125906?tri=maxprice&osort=up&cur_page=4" target="_blank">
+              <div class="card h-100">
+                <img src="./img/riu-bambu.jpg" class="card-img-top p-2" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Apartamento Lagos</h5>
+                  <p class="card-text">Data: 16/09 - 23/09</p>
+                  <p class="card-text">Preço: 375€</p>
+                  <p class="card-text">Localização: 1,4km da praia (c/ piscina)</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
     </div>
-  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
